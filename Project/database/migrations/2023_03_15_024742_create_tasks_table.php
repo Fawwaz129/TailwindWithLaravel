@@ -16,7 +16,7 @@ return new class extends Migration
             $table->string('book_name');
             $table->string('rate_book');
             $table->string('pengarang_book');
-            $table->string('synosis'); 
+            $table->string('synopsis'); 
             $table->timestamps();
         });
     }
