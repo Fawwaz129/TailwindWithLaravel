@@ -7,6 +7,9 @@
 </head>
 <body>
     @include('components.navbar')
-    @yield('main')
+    <div class=" sm:ml-64">
+      @yield('main')
+  </div>   
+
 </body>
 </html>
